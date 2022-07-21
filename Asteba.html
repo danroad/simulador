@@ -1,0 +1,52 @@
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIMULADOR MAKTUB</title>
+    <link rel="stylesheet"  href="css/index.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet" >
+</head>
+
+<body>
+    <header>
+        <h1>Simulador da Asteba</h1>
+    </header>
+
+    <section class="container" id="simuladorAsteba">
+        <form >
+            <label for="margemDisponivel" id="lbMargemDisponivel"> MARGEM DISPONÍVEL: </label>
+            <input type="number" id="margemDisponivel">
+
+            <button type="button" class="btn btn-warning btn-lg" id="bt_SimularAsteba">SIMULAR</button>
+ 
+            
+        </form>
+
+        <div id="resultadoAsteba" style="display:none;">
+            <div  id="saldoInvalido" style="display:none ;"> <p> <strong> MARGEM COM SALDO INSUFICIENTE PARA OPERAÇÃO.</strong></p></div>
+
+            <div style="display:none ;" id="saldoValido">
+                <p class="linhaAsteba" id="linhaAsteba12"> <strong>VALOR LIBERADO: R$ </strong> <SPAN id="valorLiberado12"> </SPAN>  |  <strong> NÚMERO DE PARCELAS:  </strong><Span id="prazo12"> </Span> | <strong> VALOR DA PARCELA: R$ </strong><span id="valorParcela12"></span> | <strong>SALDO: R$ </strong><span id="saldoParcela12"></span></p>
+                <p class="linhaAsteba" id="linhaAsteba18"> <strong>VALOR LIBERADO: R$ </strong> <SPAN id="valorLiberado18"> </SPAN>  |  <strong> NÚMERO DE PARCELAS:  </strong><Span id="prazo18"> </Span> | <strong> VALOR DA PARCELA: R$ </strong><span id="valorParcela18"></span> | <strong>SALDO: R$ </strong><span id="saldoParcela18"></span></p>
+                <p class="linhaAsteba" id="linhaAsteba24"> <strong>VALOR LIBERADO: R$ </strong> <SPAN id="valorLiberado24"> </SPAN>  |  <strong> NÚMERO DE PARCELAS:  </strong><Span id="prazo24"> </Span> | <strong> VALOR DA PARCELA: R$ </strong><span id="valorParcela24"></span> | <strong>SALDO: R$ </strong><span id="saldoParcela24"></span></p>
+                <p class="linhaAsteba" id="linhaAsteba36"> <strong>VALOR LIBERADO: R$ </strong> <SPAN id="valorLiberado36"> </SPAN>  |  <strong> NÚMERO DE PARCELAS:  </strong><Span id="prazo36"> </Span> | <strong> VALOR DA PARCELA: R$ </strong><span id="valorParcela36"></span> | <strong>SALDO: R$ </strong><span id="saldoParcela36"></span></p>
+
+
+        </div>
+
+        
+
+
+
+    </section>
+    
+
+
+
+
+
+
+    <script src="js/astebaJS.js"></script>
+
+</body>

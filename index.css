@@ -1,0 +1,39 @@
+header{
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 50px;
+}
+#lbMargemDisponivel,#margemDisponivel{
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 30px;
+}
+#lbMargemDisponivel{
+    background-color: white;
+    width: 30%;
+    border-radius: 5px;
+    padding: 2px;
+    font-size: 30px;
+    margin-left: 0px;
+}
+
+
+#simuladorAsteba{
+    background-color:  #08a20d;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+#resultadoAsteba{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 25px;
+}
+
+#bt_SimularAsteba{
+margin-bottom: 1%;
+}
